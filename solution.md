@@ -38,13 +38,13 @@ let i = 0
 function sum (numbers) {
   "use strict";
   if (Array.isArray(numbers) === true) {
-    for ( let i = 0 ; i < numbers.length; i++) {
+    for (let i = 0; i < numbers.length; i++) {
       sum1 += numbers[i]
-      return sum1
     }
   } else {
-      return  0
-    }    
+      return 0
+    } 
+  return sum1
 };
 
 ## Reversed Strings
